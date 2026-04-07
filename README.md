@@ -1,34 +1,14 @@
-# ICES DATA PORTAL REVAMP
-Since the development of the existing ICES data portal, the portfolio of data products at ICES has grown and diversified, technology has brought new opportunities, and the policy landscape has changed. It is therefore time to rethink the user story for the ICES Data Portal, which this short document aims to do.
+# dataXplorer
+The ICES Data Centre is pleased to announce the launch of a new release of the ICES Data Portal, now rebranded as DataXplorer. This updated platform introduces enhanced functionality, including new capabilities for visualizing and downloading restricted data layers.
 
-This repository will support the development of the next generation of http://ecosystemdata.ices.dk/
+DataXplorer now supports three types of datasets:
 
-## Objectives
-The ICES Data portal should:
-#### a) Be an online searchable catalogue of data managed by ICES
-#### b) Present summaries of these data in a map viewer
-#### c) Allow downloading of data in known international formats
-#### d) Enable downloading detail data in native formats (i.e. DATRAS, Dome views, etc)
+Public data
+Restricted data
+Combined public and restricted data
 
-## Specific Requirements
-### Content discovery
- - A catalogue of the data managed at ICES.
- - Accommodate indicators/data products from existing ICES systems (SAG, DATRAS Indices, bycatch risk, etc)
+Restricted data is displayed on the map at an aggregated level to ensure appropriate access control. Users are required to log in to download data where permission is granted. If a user does not have access to restricted datasets, only aggregated information will be included in any downloaded files.
 
-## Viewing
-Accommodate Reference layers (internal and external sourced).
-Being able to view the layers (base data, indicator, reference layer) in the map. 
-Be able to query the data geospatially (eg using the map to draw an area)
-Having a user area to:
-- Access restricted layers (eg. specific to a working group).
-- Save queries (to view later).
-- Upload user layers to view with the ICES layers.
+Currently, VME-restricted data are available in this release, with additional restricted datasets planned for future updates.
 
-## Downloading
-Being able to download the data in the native format or in an international format.
-
-
-
-
-## Current draft of the workflow:
-![alt tag](http://ecosystemdata.ices.dk/ICES_DataPortalFlow.PNG "Portal data flow")
+We invite you to explore DataXplorer and share your feedback. Please contact us via email at accessio@ices.dk or through this board.
